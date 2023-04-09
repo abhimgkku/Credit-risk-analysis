@@ -28,10 +28,10 @@ def get_requirements_list() -> List[str]:
 
 
 setup(
-    name="sensor",
+    name="credit",
     version="0.0.1",
-    author="ineuron",
-    author_email="avnish@ineuron.ai",
+    author="abhinav kumar",
+    author_email="abhinav.mg.k@gmail.com",
     packages = find_packages(),
     install_requires=get_requirements_list(),
 )

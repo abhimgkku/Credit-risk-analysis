@@ -3,7 +3,7 @@ from src.constants.s3_bucket import TRAINING_BUCKET_NAME
 
 SAVED_MODEL_DIR =os.path.join("saved_models")
 # defining common constant variable for training pipeline
-TARGET_COLUMN = "class"
+TARGET_COLUMN = "loan_status"
 PIPELINE_NAME: str = "credit"
 ARTIFACT_DIR: str = "artifact"
 FILE_NAME: str = "credit.csv"
